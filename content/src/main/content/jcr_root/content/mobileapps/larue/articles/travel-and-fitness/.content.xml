@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/larue"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:template="/apps/larue/templates/article"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Travel and Fitness"
+        sling:resourceType="larue/components/pages/article"
+        dps-access="free"
+        dps-resourceType="dps:Article"
+        dps-title="Travel and Fitness"
+        pge-type="app-content">
+        <imagetext
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/imagetext"
+            fileReference="/content/dam/mobileapps/larue/travel-and-fitness/big2.jpg"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text1
+                jcr:lastModified="{Date}2016-04-22T22:30:41.301+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>For many, travel is a regular part of the work week. Work travel can also often feel like an insurmountable barrier to a consistent training plan. Many factors combine to make changing locations a major obstacle toward better fitness. Inconsistent schedules, changes in routine and lack of regular sleep typically combine to make quality exercise tough to execute both on the road and once you return. Though travel may not lead to the best training, it doesn’t have to lead to a loss of fitness and a feeling of “starting over” every time you get home. In this article, I hope to give a few guidelines to help you make the most of your time on the road.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>The main thing I hear from my athletes when they have to travel for their job is that they were overworked, they over ate, and didn’t train enough. Oftentimes this is due to the feeling that since they couldn’t do what they thought they “should” do that instead they did nothing at all and let the things they could control slip. This, to me, is a matter of perception. Yes, you may not be able to replicate your training on the road but it doesn’t mean that you have to miss out on the parts of training that make the transition from being at home and back on the road easier. It is important to have a change in attitude about travel and what “needs” to be done while away from home.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <image1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/image"
+                fileReference="/content/dam/mobileapps/larue/travel-and-fitness/big7.jpg"/>
+            <text2
+                jcr:lastModified="{Date}2016-04-22T22:30:18.032+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>Planning ahead for travel is a key aspect of a successful training plan. All good training plans are structured to stress the system to a point of relative fatigue and then backing off to allow the body to adapt and absorb the work. Rest is a key component of fitness. The body reacts to stresses by adapting to harder work and that adaptation is manifested in better performance. This work/rest cycle is key so that the next period of hard work is at a higher level. Planning your training schedule around periods that you know will be less productive (work travel) is a great way to build in some forced recovery. Structuring your training to culminate with harder, more difficult work that ends just before a short trip will stress the system and necessitate that you relax and rest while traveling. Your body will gladly accept this needed rest and it will reward you with improved fitness when you get back home to a routine. Knowing that this time off is a part of the plan should give you confidence that this is just what your body needs. Going on a trip with the confidence that you are actually growing from your time away can be all it takes to return home and pick up right where you left off. Some active recovery can be a part of this but it doesn’t need to be at the same volume and intensity that you are used to at home and in fact is better if done easier.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <image2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/image"
+                fileReference="/content/dam/mobileapps/larue/travel-and-fitness/IMG_4598.jpg"/>
+            <text3
+                jcr:lastModified="{Date}2016-04-22T22:30:03.881+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>If you are away for longer than a few days you will need to train a little. One of the most important aspects of good training is consistency. Even a little bit of work is better than none when you need to train. One of my favorite maxims is: If you can’t do a lot, do a little. This means it is better to get some form of regular exercise even if it’s not specific or as much as you would like. Planning to train with less duration and higher intensity should be the main goal and it doesn’t have to fully replicate the program you are used to. As a system, we are creatures of habit. Shorter durations with higher intensity will stress the necessary systems and remind the body that it is not done training. If you do nothing for extended periods, the body decides that this is the new normal and you begin to lose fitness. Shorter bouts of high intensity are a great physical “wake up” and you will maintain your fitness very well if done consistently.&lt;/p>&#xd;&#xa;&lt;p>Most travel is stressful and that has to be accounted for as well. In fact, trying to keep up with an exact replica of regular training while on the road can often be too much and can lead to sickness and fatigue upon your return. The body doesn’t compartmentalize stress the way the mind can as it registers everything. If you are working overtime and missing out on sleep, you have to account for these stresses. As this is often the case, remember to take it easy while on the road so that you can get home and return to your regular training as smoothly as possible. A day or two off or training easy to relieve some stress while away is always better than attempting to fit it all in and then coming home sick.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <text
+                jcr:created="{Date}2016-04-22T22:28:33.652+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-22T22:29:48.115+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>Though it is typically best to train within your chosen discipline, any form of activity is better than none at all (with the exception of fully resting when needed). Most hotels have gyms and they typically have some sort of aerobic or cardiovascular machine. A quick 30-45’ aerobic pedal on the spin bike or 20-30’ worth of work on the elliptical, stairmaster or treadmill is far superior to skipping a day of training and will help keep you in the game so that you don’t lose too much in the long term. If you are used to lifting weights, a circuit on the machines you find in the hotel gym can also be a great way to keep the muscles active and stimulated. The one caveat is that you should avoid injury by attempting to do work that your body is adapted to and able to handle. Jogging too hard or lifting a bunch of heavy weights if you never do this at home can lead to injury and so it is best to ease into this. This is particularly important if you are only used to a low impact sport like cycling.&amp;nbsp; At the very least, make it a point to breath aerobically for some time everyday even if it is not specific or overly taxing. Something as simple as avoiding the elevator and using the stairs is still work if you treat it that way and your body will thank you for it.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <text_473180435
+                jcr:created="{Date}2016-04-22T22:28:36.511+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-22T22:29:32.033+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>Finally, nutrition and hydration need to be considered. The more you can eat like you do at home, the less stress you will put on your body. Making smart choices at meal times goes a long way towards avoiding weight gain and unnecessary stress to the system. Remembering to stay hydrated while flying and during the day is also critical. Dehydration leads to poor performance but it is easily avoidable if you stay aware of it. Carrying a water bottle and filling it regularly is typically all it takes to stay on top of your hydration.&lt;/p>&#xd;&#xa;&lt;p>If your work includes travel, planning to scale back on volume and making it a point to work a little rather than not at all is a great game plan and will have you training better when you get home. Having the confidence to give yourself a little rest when your body needs it will also make you stronger. Travel, though disruptive, doesn’t have to derail your fitness goals. By simply doing what you can and accepting that good training always accounts for changes in routine will keep you on the road to better fitness and greater results.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <video2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/video"/>
+            <video3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/video"/>
+            <articleauthor
+                jcr:lastModified="{Date}2016-04-22T22:25:16.700+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/articleauthor"
+                fileReference="/content/dam/mobileapps/larue/travel-and-fitness/avatar2.jpg"
+                title="&lt;p>Tom Walker&lt;/p>&#xa;">
+            </articleauthor>
+            <sociallinks
+                jcr:lastModified="{Date}2016-04-22T22:24:52.514+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/sociallinks"
+                email="brabner@adobe.com"
+                facebook="http://www.facebook.com"
+                linkedin="http://www.linkedin.com"
+                twitter="http://www.twitter.com"/>
+        </par>
+        <relatedarticle1
+            jcr:lastModified="{Date}2016-04-22T22:24:24.524+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"
+            fileReference="/content/dam/mobileapps/larue/summer-ride/big8.jpg"
+            relatedlink="/content/mobileapps/larue/articles/summer-ride"/>
+        <relatedarticle2
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <relatedarticle3
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/larue/travel-and-fitness/big2.jpg"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+        <social-share-image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/larue"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:template="/apps/larue/templates/article"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Alpe d’Huez"
+        sling:resourceType="larue/components/pages/article"
+        dps-access="free"
+        dps-adType="static"
+        dps-author="Mike Cotty"
+        dps-authorURL="http://thecolcollective.com"
+        dps-importance="normal"
+        dps-resourceType="dps:Article"
+        dps-title="Alpe d’Huez"
+        pge-type="app-content">
+        <imagetext
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/imagetext"
+            fileReference="/content/dam/mobileapps/larue/alpedhuez/AlpedHuez.jpg"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <articleauthor_copy
+                jcr:lastModified="{Date}2016-05-02T14:48:01.121-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/articleauthor"
+                fileReference="/content/dam/mobileapps/larue/alpedhuez/avatar.jpg"
+                title="&lt;p>Mike Cotty&lt;/p>&#xa;"/>
+            <text1
+                jcr:lastModified="{Date}2016-05-02T14:46:50.886-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>&lt;b>Alpe d’Huez&lt;/b>&lt;/p>&#xa;&lt;p>If the truth be known I owe a lot to the rockstar ascent that is Alpe d’Huez, along with its equally impressive neighbours the Glandon and Galibier. Back in 2003 it was the lure of these legendary peaks that gave me my first real taste of the mountains as I nervously lined up for La Marmotte not really knowing what I was getting myself into. I remember rolling into Bourg d’Oisans and feeling my stomach somersaulting with fearful excitement at the gargantuan size of the mountains surrounding me. You could feel the energy they possessed, like the walls of a Roman amphitheatre staring down at a gladiator about to go into combat. I’ll never forget that moment, eventually carving my way up the 21 bends to the summit of Alpe d’Huez. We’ve come a long way since then but this is, and always will be, where the dream began. Peace.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Start: Bourg d'Oisans&lt;/p>&#xa;&lt;p>Length: 13.2km&lt;/p>&#xa;&lt;p>Summit: 1,850m&lt;/p>&#xa;&lt;p>Elevation gain: 1,108m&lt;/p>&#xa;&lt;p>Average gradient: 8.1%&lt;/p>&#xa;&lt;p>Max gradient: 13%&amp;nbsp;&lt;/p>&#xa;&lt;p>Ridden in June&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"/>
+            <text3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"/>
+            <video1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/video"/>
+            <video2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/video"/>
+            <video3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/video"/>
+            <articleauthor
+                jcr:lastModified="{Date}2016-05-02T14:48:01.121-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/articleauthor"
+                fileReference="/content/dam/mobileapps/larue/alpedhuez/avatar.jpg"
+                title="&lt;p>Mike Cotty&lt;/p>&#xa;"/>
+            <sociallinks
+                jcr:lastModified="{Date}2016-05-06T18:36:34.811-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/sociallinks"
+                instagram="https://www.instagram.com/cottydale"/>
+        </par>
+        <relatedarticle1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <relatedarticle2
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <relatedarticle3
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/larue/alpedhuez/AlpedHuez.jpg"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+        <social-share-image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"/>
+    </jcr:content>
+</jcr:root>

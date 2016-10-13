@@ -1,0 +1,68 @@
+/*
+*  Copyright 2016 Adobe Systems Incorporated. All rights reserved.
+* 
+*  This file is licensed to you under the Apache License, Version 2.0 (the "License"); 
+*  you may not use this file except in compliance with the License. You may obtain a copy
+*  of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software distributed under
+*  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS 
+*  OF ANY KIND, either express or implied. See the License for the specific language
+*  governing permissions and limitations under the License.
+*/
+.larue-related-article {
+    text-decoration: none;
+    display: block;
+    background-color: #202126;
+    margin: 0 2vw 2vw;
+    border-radius: 2vw;
+    font-family: arial;
+    .bg-container {
+        border-radius: 2vw 2vw 0 0;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 60vw;
+        background-size: cover;
+        overflow: hidden;
+        img {
+            top: -100%;
+            left: 0;
+            right: 0;
+            bottom: -100%;
+            margin: auto 0;
+            width: 100%;
+            position: absolute;
+        }
+    }
+    .title {
+        font-family: AkzidenzGroteskExtraBoldCond, arial;
+        letter-spacing: 0.0625em;
+        font-size: 5.2vw;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 6vw;
+    }
+    .more {
+        font-family: AkzidenzGroteskBoldCond, arial;
+        letter-spacing: 0.0625em;
+        color: #808184;
+        position: relative;
+        margin: 3vw 3vw 0;
+        font-size: 4vw;
+        padding: 0 3vw 6vw;
+        .arrow {
+            color: #87755d;
+            position: absolute;
+            right: 5vw;
+            bottom: 6vw;
+        }
+    }
+    .error {
+        color: #808184;
+        position: relative;
+        margin: 0;
+        font-size: 2vw;
+        padding: 3vw 6vw;
+    }
+}

@@ -1,0 +1,8 @@
+#base=css
+
+paragraphs/image.less
+paragraphs/imagetext.less
+paragraphs/articleauthor.less
+paragraphs/sociallinks.less
+paragraphs/video.less
+paragraphs/youtubevideo.less

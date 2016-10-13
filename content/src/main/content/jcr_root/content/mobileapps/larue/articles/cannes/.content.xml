@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[/etc/cloudservices/googlemapservice/larue_googlemap_config]"
+        cq:designPath="/etc/designs/larue"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:template="/apps/larue/templates/rideevent"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Cannes"
+        sling:resourceType="larue/components/pages/rideevent"
+        dps-access="free"
+        dps-resourceType="dps:Article"
+        dps-shortAbstract="June 20-24"
+        dps-title="Cannes"
+        eventRegURL="http://www.adobeeventsonline.com/Cycling/2016/CannesLions/"
+        guidespanel="Bobby Julich&#xa;        Olympic silver medalist, winner of Paris-Nice and Criterium International."
+        pge-type="app-content"
+        photopanel=""
+        rideschedule="/content/dam/mobileapps/shared/multisurvey_131046285058577050.csv"
+        rideseditorbox="\[{&quot;name&quot;:&quot;monday-june-20-coffee-ride&quot;,&quot;date&quot;:&quot;2016-06-20&quot;,&quot;rideTime&quot;:&quot;7:00am - 8:30am&quot;,&quot;path&quot;:&quot;u%7BxhGu%7Byi@%7DAdAg@oBrFyf@fF%7BRlR%7Bb@%60GeDlKrClKuAlL_JxDVnAsGk_@wKmFoFyCeNyHiPyKKA_%5EcEgRsrA%7BjAqOwYsIqWoBiRqRcf@%7BGqjAIeVbD_%5CnGsTrCaZhL_TlKK%60FsHxGiCvBkHjImLdLcA%7EJtDrDqFrJX%60H%60G%5EjJzHjEk@uElDgPQmBL%7EDiDtMj@tE%7BHkE_@kJaGsFsKg@sDpFuLuDyLlByJnToGvBkFdImUfA%3FdOiB%7CA%7DAnIu@pOoGrTcD%7E%5BHdVzGpjAxQzd@%60C%7CRxIdXpOvYjrAhkAvDfOTp%60@xKJxHhPxCdNlFnFj_@vKi@dFuEQcMlJ_KtAqKwCwGvDkRvb@eFbSuFdg@%7C@jB%7CAeA&quot;},{&quot;name&quot;:&quot;monday-june-20-endurance-ride&quot;,&quot;date&quot;:&quot;2016-06-20&quot;,&quot;rideTime&quot;:&quot;9:00am - 11:30am&quot;,&quot;path&quot;:&quot;u%7BxhGu%7Byi@yExCaA%60I%5ChKlDtNjM@VlImDph@a@b%7D@nAlc@vJngA%60J%7Eg@dTvu@nWld@%7CPbTpT%7CUp_@nRhUzYbFzCjEeCjK%60E%7CBfF%5CrOhAvAdHwN%7CE%7ECbNN%7CDaB%7CDzBvM_FvCgV%7CA_BjCvAo@%7DG%7CFsQIwJhCaEsAoDGkNxDcGzHvBxCeAlGhDjIlJj@hFdC%7EAvFnMpC%7CAd@hFbHrBnHkCfDfJrGxDpGmIpHq@f@oMtDaCtBfHaDxKv@bZ_FvNrNnAuAbMdHdY%60Dz@nAaDfB%5BzSnDpFuJrCfPhK_@d@dG%7D@bFnIjTrHe@vLxF%60J%7BIhGR%60S%60F%7EB%60F%7CFh@%7CAaChCjD%7CDOvE%7CHbIc@%60C%7BHjGj@vKpGvFOvE%7EHxDd@gAzJrHpQdDvZfEdEQhE%60C%7EFN%60IhDOtCrCuCsCiDNOaIaC_GPiEgEeEeDwZsHqQfA%7BJyDe@wE_IwFNwKqGkGk@aCzHcIb@wE%7DH%7DDNiCkD%7DA%60C%7DFi@_CaFaSaFiGSaJzIwLyFsHd@oIkT%7C@cFe@eGiK%5EsCgPqFtJ%7BSoDgBZoA%60DaD%7B@eHeYtAcMsNoA%7EEwNw@cZ%60DyKuBgHuD%60Cg@nMqHp@qGlIsGyDgDgJoHjCcHsBe@iFqC%7DAwFoMeC_Bk@iFkImJmGiDyCdA%7BHwByDbGFjNrAnDiC%60EHvJ%7DFrQn@%7CGkCwA%7DA%7EAwCfVwM%7EE%7DD%7BB%7DD%60BcNO%7DE_DeHvNiAwA%5DsO%7DBgFkKaE%7DDzAuCcA_H_GgDoIsIyIuM_JoP%7DEgUoVsPmTmWqf@mSap@eKgk@wJogAyAql@%7EAekAdEo%5C%7DBwAkLxAuA%7BEcAcXv@%7BDjDmC&quot;},{&quot;name&quot;:&quot;tuesday-june-21-coffee-ride&quot;,&quot;date&quot;:&quot;2016-06-21&quot;,&quot;rideTime&quot;:&quot;7:00am - 8:30am&quot;,&quot;path&quot;:&quot;u%7BxhGu%7Byi@%7DAdAg@oBrFyf@fF%7BRlR%7Bb@%60GeDlKrClKuAlL_JxDVnAsGk_@wKmFoFyCeNyHiPyKKA_%5EcEgRsrA%7BjAqOwYsIqWoBiRqRcf@%7BGqjAIeVbD_%5CnGsTrCaZhL_TlKK%60FsHxGiCvBkHjImLdLcA%7EJtDrDqFrJX%60H%60G%5EjJzHjEk@uElDgPQmBL%7EDiDtMj@tE%7BHkE_@kJaGsFsKg@sDpFuLuDyLlByJnToGvBkFdImUfA%3FdOiB%7CA%7DAnIu@pOoGrTcD%7E%5BHdVzGpjAxQzd@%60C%7CRxIdXpOvYjrAhkAvDfOTp%60@xKJxHhPxCdNlFnFj_@vKi@dFuEQcMlJ_KtAqKwCwGvDkRvb@eFbSuFdg@%7C@jB%7CAeA&quot;},{&quot;name&quot;:&quot;tuesday-june-21-endurance-ride&quot;,&quot;date&quot;:&quot;2016-06-21&quot;,&quot;rideTime&quot;:&quot;9:00am - 11:30am&quot;,&quot;path&quot;:&quot;u%7BxhGu%7Byi@yExCaA%60I%5ChKlDtNjM@VlImDph@a@b%7D@nAlc@vJngA%60J%7Eg@dTvu@nWld@%7CPbTpT%7CUp_@nRhUzYbFzCjEeCjK%60E%7CBfF%5CrOhAvAdHwN%7CE%7ECbNN%7CDaB%7CDzBvM_FvCgV%7CA_BjCvAo@%7DG%7CFsQIwJhCaEsAoDGkNxDcGzHvBxCeAlGhDjIlJj@hFdC%7EAvFnMpC%7CAd@hFbHrBnHkCfDfJrGxDpGmIpHq@f@oMtDaCtBfHaDxKv@bZ_FvNrNnAuAbMdHdY%60Dz@nAaDfB%5BzSnDpFuJrCfPhK_@d@dG%7D@bFnIjTrHe@vLxF%60J%7BIhGR%60S%60F%7EB%60F%7CFh@%7CAaChCjD%7CDOvE%7CHbIc@%60C%7BHjGj@vKpGvFOvE%7EHxDd@gAzJrHpQdDvZfEdEQhE%60C%7EFN%60IhDOtCrCuCsCiDNOaIaC_GPiEgEeEeDwZsHqQfA%7BJyDe@wE_IwFNwKqGkGk@aCzHcIb@wE%7DH%7DDNiCkD%7DA%60C%7DFi@_CaFaSaFiGSaJzIwLyFsHd@oIkT%7C@cFe@eGiK%5EsCgPqFtJ%7BSoDgBZoA%60DaD%7B@eHeYtAcMsNoA%7EEwNw@cZ%60DyKuBgHuD%60Cg@nMqHp@qGlIsGyDgDgJoHjCcHsBe@iFqC%7DAwFoMeC_Bk@iFkImJmGiDyCdA%7BHwByDbGFjNrAnDiC%60EHvJ%7DFrQn@%7CGkCwA%7DA%7EAwCfVwM%7EE%7DD%7BB%7DD%60BcNO%7DE_DeHvNiAwA%5DsO%7DBgFkKaE%7DDzAuCcA_H_GgDoIsIyIuM_JoP%7DEgUoVsPmTmWqf@mSap@eKgk@wJogAyAql@%7EAekAdEo%5C%7DBwAkLxAuA%7BEcAcXv@%7BDjDmC&quot;},{&quot;name&quot;:&quot;wednesday-june-22-coffee-ride&quot;,&quot;date&quot;:&quot;2016-06-22&quot;,&quot;rideTime&quot;:&quot;7:00am - 8:30am&quot;,&quot;path&quot;:&quot;u%7BxhGu%7Byi@%7DAdAg@oBrFyf@fF%7BRlR%7Bb@%60GeDlKrClKuAlL_JxDVnAsGk_@wKmFoFyCeNyHiPyKKA_%5EcEgRsrA%7BjAqOwYsIqWoBiRqRcf@%7BGqjAIeVbD_%5CnGsTrCaZhL_TlKK%60FsHxGiCvBkHjImLdLcA%7EJtDrDqFrJX%60H%60G%5EjJzHjEk@uElDgPQmBL%7EDiDtMj@tE%7BHkE_@kJaGsFsKg@sDpFuLuDyLlByJnToGvBkFdImUfA%3FdOiB%7CA%7DAnIu@pOoGrTcD%7E%5BHdVzGpjAxQzd@%60C%7CRxIdXpOvYjrAhkAvDfOTp%60@xKJxHhPxCdNlFnFj_@vKi@dFuEQcMlJ_KtAqKwCwGvDkRvb@eFbSuFdg@%7C@jB%7CAeA&quot;},{&quot;name&quot;:&quot;wednesday-june-22-endurance-ride&quot;,&quot;date&quot;:&quot;2016-06-22&quot;,&quot;rideTime&quot;:&quot;9:00am - 1:30pm&quot;,&quot;path&quot;:&quot;u%7BxhGu%7Byi@%7DAdA%7D@kB_C%60Ol@rNtB%60KrNJVlImDph@k@%7Es@dAfg@jFzp@cI%7CBMpBuQdNmF%60VaJ%7EJaAdHkGpGiRjCmTfOyNlBgBOkDkOyBgMI%7BIaGu@mGhCuRmBia@bB_IuAoJuHwClQsEiD%7BQjOiBnGiXC%7EAs@lB%60@oE%3FcQbJkEReHmDcCyMsOyGed@_JeNoRcOgMys@pg@wCyRwK%60E%7BKmNsGkAgKzAuGaDwFjEmLg@kEz@wCbE%7BMRkKcOyAe%5DiE_O%5DwTeBcFrFmMbAeJmAqPgKia@%5Boz@lCgCiDAwKyFwNrKs%5DdBaDzDsFv@%7D@hCTnWqIjAcBdI%7DDrGyEjl@gHxL%7BElUua@fQuPlAmNdJ_RlRkFlJ%5ExAhIyE_KxQaKtEuKvNsGu@gHgVcVySq%5EyFiJ%7EF%7BLpBgEhEyCc@sDsPbDsWkGwUvCdCyBwG%7BEmDiGsLuCl@kBdEwFoDaKRaN%60IwQbEaInT_GyUmXoE_G%7BGs@eCj@sCbLxB%7DFyE%7DGm@AcFcGjEmGcFqFOqKeMsP%5BmWcJ%7BO%5EkEaFuF_BmRq@oIdDaApCsRpAuIjEmC%7EFkL%5EMjNuG%7C@%7DDlI_GlDgNrDwRc@yDnDrEqClT%60DzMm@pOkEhCyC%7CI%7ECbIgGtI%60CrB%7DFzGyD%7CWeIY%7BDtB%7CAFjBgGhBaAbDbBkCpNq@tE%7DCsAdEaJbBaEvDhHsCt%5BlAp@pIxH%60Qh%5CjJtEnGxB%60NjPpRhBdJrFlHo@dDnBxCl@jVbCvKqFxGXjAbJxAbEcItCyV%60EiFlSA%7CAhCbNfDfAoAXyKxG%7DBnBvB%60@%7CH%7EAvDnKfBbGdGlEvf@dC%7CGdJdH%60A%7BByDsGc@%7BGjAuJdC%7BCjKuBrFxDtB%5Bl@%7DHfEgKvUyNhC_GnMl@vFmFbNfA%7CCrBxJtRvEiCpAv@uGrm@DjTnDzO_DtLrJbXtAtKSpI%60YnIzIhP%7EFh@tDxFrQtKbGjLt@jGvDN%60CtFtF%60B%60G%7CO%7CC%7EU%7BCjGChHjCNrCvDhB%7BCvHoCpI%7EArAbC_@%7ECvCfFzO%7ELzLkH%7EHX%7EFnRlMvCtDfMvJpCbKfKdAdIfQvAbBbFjDTpEsHhQaFnM%7EB%7ECmDpa@sMzJwEtImIvJwCpSo@hOzFbDwBgC%7CHuGjArEvBdPuBhMjFnFmGlKgC%7EMaWtNaQva@qPbh@yhAlPyQ%60M%7DAzNq%60@hTu%5CjMrArUyT%7CFTdHyE%7ECuGgAoFV%7BTjFmKhU%7DHxQ_MjRcBdGoI%60AeH%60J_KtEqTtCeEEiChGwDpBuF%7EBtBtHgCmFqp@eAgg@%7EAekAdEo%5C%7DBwAkLxAuA%7BEcAcXv@%7BDjDmC&quot;},{&quot;name&quot;:&quot;thursday-23-coffee-ride&quot;,&quot;date&quot;:&quot;2016-06-23&quot;,&quot;rideTime&quot;:&quot;7:00am - 8:30am&quot;,&quot;path&quot;:&quot;u%7BxhGu%7Byi@%7DAdAg@oBrFyf@fF%7BRlR%7Bb@%60GeDlKrClKuAlL_JxDVnAsGk_@wKmFoFyCeNyHiPyKKA_%5EcEgRsrA%7BjAqOwYsIqWoBiRqRcf@%7BGqjAIeVbD_%5CnGsTrCaZhL_TlKK%60FsHxGiCvBkHjImLdLcA%7EJtDrDqFrJX%60H%60G%5EjJzHjEk@uElDgPQmBL%7EDiDtMj@tE%7BHkE_@kJaGsFsKg@sDpFuLuDyLlByJnToGvBkFdImUfA%3FdOiB%7CA%7DAnIu@pOoGrTcD%7E%5BHdVzGpjAxQzd@%60C%7CRxIdXpOvYjrAhkAvDfOTp%60@xKJxHhPxCdNlFnFj_@vKi@dFuEQcMlJ_KtAqKwCwGvDkRvb@eFbSuFdg@%7C@jB%7CAeA&quot;},{&quot;name&quot;:&quot;thursday-23-endurance-ride&quot;,&quot;date&quot;:&quot;2016-06-23&quot;,&quot;rideTime&quot;:&quot;9:00am - 11:30am&quot;,&quot;path&quot;:&quot;u%7BxhGu%7Byi@yExCaA%60I%5ChKlDtNjM@VlImDph@a@b%7D@nAlc@vJngA%60J%7Eg@dTvu@nWld@%7CPbTpT%7CUp_@nRhUzYbFzCjEeCjK%60E%7CBfF%5CrOhAvAdHwN%7CE%7ECbNN%7CDaB%7CDzBvM_FvCgV%7CA_BjCvAo@%7DG%7CFsQIwJhCaEsAoDGkNxDcGzHvBxCeAlGhDjIlJj@hFdC%7EAvFnMpC%7CAd@hFbHrBnHkCfDfJrGxDpGmIpHq@f@oMtDaCtBfHaDxKv@bZ_FvNrNnAuAbMdHdY%60Dz@nAaDfB%5BzSnDpFuJrCfPhK_@d@dG%7D@bFnIjTrHe@vLxF%60J%7BIhGR%60S%60F%7EB%60F%7CFh@%7CAaChCjD%7CDOvE%7CHbIc@%60C%7BHjGj@vKpGvFOvE%7EHxDd@gAzJrHpQdDvZfEdEQhE%60C%7EFN%60IhDOtCrCuCsCiDNOaIaC_GPiEgEeEeDwZsHqQfA%7BJyDe@wE_IwFNwKqGkGk@aCzHcIb@wE%7DH%7DDNiCkD%7DA%60C%7DFi@_CaFaSaFiGSaJzIwLyFsHd@oIkT%7C@cFe@eGiK%5EsCgPqFtJ%7BSoDgBZoA%60DaD%7B@eHeYtAcMsNoA%7EEwNw@cZ%60DyKuBgHuD%60Cg@nMqHp@qGlIsGyDgDgJoHjCcHsBe@iFqC%7DAwFoMeC_Bk@iFkImJmGiDyCdA%7BHwByDbGFjNrAnDiC%60EHvJ%7DFrQn@%7CGkCwA%7DA%7EAwCfVwM%7EE%7DD%7BB%7DD%60BcNO%7DE_DeHvNiAwA%5DsO%7DBgFkKaE%7DDzAuCcA_H_GgDoIsIyIuM_JoP%7DEgUoVsPmTmWqf@mSap@eKgk@wJogAyAql@%7EAekAdEo%5C%7DBwAkLxAuA%7BEcAcXv@%7BDjDmC&quot;},{&quot;name&quot;:&quot;friday-june 24-curt-hecht-epic-ride&quot;,&quot;date&quot;:&quot;2016-06-24&quot;,&quot;rideTime&quot;:&quot;7:00am - 2:00pm&quot;,&quot;path&quot;:&quot;u%7BxhGu%7Byi@iC%5DvFeg@tYwv@%7C_@gBfRgIlAiHye@_QqNaa@yKKYac@aG%7DP%7D%7B@%7Ds@e_@_d@%7Be@a%7EAqGqvAlQwtAhL_TvJ%3FpOiMxJoTnNmB%7EJtDrDqFrJX%60H%60G%5EjJrIrDcA%7DDhDcRqOyc@mHmE%7DEuReN%7DMqI%5D_%5C%7DV%7DOrHuIiAsKoNqBzDYrb@nEbNa%5Dbj@qIa@wFeHiW%60VuMoEoSnLeJmCsJwOwQyDmbBcCsbCsu@mn@iBwVii@mx@c%7B@uVee@%7DR%7Dt@cAqXjGwb@wDsd@zApFiMsx@%7DWik@sKma@eMsbBc%5D%7Dj@mq@%7D%60@sf@oj@cX_m@kLqe@yIiz@kBsnArAeZ%7CHsOoAoGk%5EyIj@qRqMkBgo@a_@mDiHot@gYaK%7EKkFmBiHdHsJkEkKdJsZ_HTmOlEuIe@qMnj@yEtIjC%5CgHnJcNPkOzJwFtA%7BaAyBaSqQyZ%7C@iLoHcPwFCuIoPkFvEkHuVrC_W%7DIGaRjKeFeIe@oQcGdA%7BEiRcL_JxBu%5EiEcR%7EEmJxAwd@hO%7DPgFuk@yZgmAaVkKuPqWwAq%60@o%5CaOcCmFpGsRQeRgQ%7Dl@h@aMeV%7BTlJcKeD%7BOiMgBtC_V%7BE%7DFgDsWvLsGwAq%5C%7BIaBaIeR%7BW%7BSk%5D_D%60EoJ%7EXsTgDqFpGuJo@sNl_@_g@eAgHkVgEjAyIbP_X%7BYqTcM%7Bj@cHvLyCf%5CyVxLm_@tc@wE%7ENoFxCbC%7BEwAcELhE%7BEtB%60CqDsDxAfB_BcIqBuBmJ%7DC%7CJkDGd@xHiG%7CEX%7CDeI%60M%7DFrVy%5CnCjNpFqQj@%7BEgBQmV_ExZjTvOrGyB_FnG%7D%60A_Qh%5DlTxXlBvAbFwBhOqH%60L%7DLpF_K_C%7DN%7CIaQfa@vAnRiD%7EOjB%60EAbf@vHiA%7EF%60IwKzGfB%7ENwBpBoAd%7D@lIlFlDrK%60GmC%7CD%7EGtRpFrPhZdJqBcHtHzNiFkMfPps@yl@J%7COvZnIaShGiAfFrC%60Gfl@lIjj@%7DOmFkZbH%7EGlK%3FtQ%7DAfUoLpc@xLfCuVpCvXxh@zOvAp%60@tPpWrVjLpAlOhJrPdIr%5DrIru@sAjFmJjEgDpk@_FlJhEbRyBt%5EbL%7EIzEhRbGeAd@nQdFdI%60RkK%7CIFsC%7EVjHtVjFwEdJ%7CPfFInHbP%7D@hLpQxZ%7EBzT%7BA%60%60A%7BJvFQjOoJbN%5DfHuIkCoj@xEd@pMmEtIUlOvZ%7EGfKeJrJjEhHeHjFlB%60K_Lbw@%60%5BxAnFvRlJmA%7CGtk@xROzNh%5EvHnAnG%7DHrOsAdZfBhmAxJpz@rO%7Cm@b%60@js@h%5Dj%5Ejn@b_@fZhf@tOxgBfNlg@hUff@rM%60%7B@hAr%5DkGrd@hHbf@%7EMfe@vTrb@nx@nz@nPjh@du@bCrbC%7Ct@jbBpCpQ%7CD%60GtLlTfN%7C%5EaIxT%7BV%7ENfEjGkE%60B%7BIfSiYoEcNXsb@pB%7BDrKnNtIhA%7COsH%7E%5B%7CVpI%5CdN%7CM%7CEtRlHlEpOxc@iDbRbA%7CDsIsD_@kJaGsFsKg@sDpFuLuDyLlByJnT%7BN%7CLcTZaVfiBpGpvAze@%60%7EA%60_@nd@n%7C@xt@vF%60RTp%60@xKJpN%60a@xe@%7EPmAhHsRlHoYq@mH%7CG%7DVds@iDnWnAzO&quot;}]"
+        slideshowpanel="">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <slideshow
+                jcr:lastModified="{Date}2016-05-09T11:53:55.068-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/slideshow">
+                <slides jcr:primaryType="nt:unstructured">
+                    <_x0031_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/cannes/CANNES_750x475.png"/>
+                    <_x0032_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/cannes/Cannes_Header_Image_2_750x475.png"/>
+                </slides>
+            </slideshow>
+            <text1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="Welcome to the new corporate meeting - mixing passion, business, and community.  Great inspiration abounds on bike rides.  Speaking of where he first envisioned his Theory of Relativity, Albert Einstein said: “I thought of that while riding my bike.”  All skill levels are welcome as these are not races, but rather fun rides for everyone to enjoy the passion of riding a bike while building relationships and talking some business."/>
+            <text2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="We’ll provide sports breakfast, coffee, bikes (you are welcome to bring your own), helmets, water bottles, ride nutrition, ride guides, and vistas, just bring your cycling apparel and shoes or sneakers and shorts."/>
+            <text3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"/>
+            <guides
+                jcr:lastModified="{Date}2016-05-08T16:22:35.668-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/guides">
+                <guides jcr:primaryType="nt:unstructured">
+                    <_x0031_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/cannes/Dave_Zabriskie_2_app_profile.jpg"
+                        guidedescription="Stage winner at Tour de France and Giro d’Italia, wore the Tour yellow jersey, and record breaking 7 x USA National Time Trial champion."
+                        guidename="Dave Zabriskie"/>
+                    <_x0032_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/cannes/bobby_julich_2_app_profile.jpg"
+                        guidedescription="Olympic silver medalist, winner of Paris-Nice and Criterium International."
+                        guidename="Bobby Julich"/>
+                </guides>
+            </guides>
+            <provided
+                jcr:lastModified="{Date}2016-05-09T17:55:21.669-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/provided"
+                text="&lt;p>Sports breakfast&lt;br>&#xd;&#xa;Coffee&lt;br>&#xd;&#xa;Bikes (you are welcome to bring your own)&lt;br>&#xd;&#xa;Helmets&lt;br>&#xd;&#xa;Water bottles&lt;br>&#xd;&#xa;Ride nutrition&lt;br>&#xd;&#xa;Ride guides&lt;br>&#xd;&#xa;Vistas&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <ridephotos
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/ridephotos"/>
+        </par>
+        <relatedarticles
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticles"
+            article="cannes"
+            collection="Adventures"
+            numOfRecords="{Decimal}3"
+            url=""/>
+        <question
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="/apps/larue/components/paragraphs/question"/>
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/larue/cannes/CANNES_750x475.png"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+        <social-share-image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/larue/cannes/CANNES_750x475.png"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+    </jcr:content>
+</jcr:root>

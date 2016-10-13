@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/apps/larue/templates/.*]"
+        cq:designPath="/etc/designs/larue"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2016-10-07T17:13:16.014-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/larue/templates/issue"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adobe La Rue"
+        sling:resourceType="larue/components/pages/issue"
+        dps-exportTemplate="/etc/contentsync/templates/dps-larue"
+        dps-resourceType="dps:Project"
+        pge-dashboard-config="/libs/mobileapps/dps/admin/content/dashboard/tiles/dpsdefault"
+        pge-type="[app-group,app-publish,app-instance]"/>
+    <articles/>
+    <collections/>
+</jcr:root>

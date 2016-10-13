@@ -1,0 +1,3 @@
+#base=js
+
+provided-item-list-widget.js

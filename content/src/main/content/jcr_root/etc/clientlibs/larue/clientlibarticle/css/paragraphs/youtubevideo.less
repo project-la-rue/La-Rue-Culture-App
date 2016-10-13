@@ -1,0 +1,48 @@
+/*
+*  Copyright 2016 Adobe Systems Incorporated. All rights reserved.
+* 
+*  This file is licensed to you under the Apache License, Version 2.0 (the "License"); 
+*  you may not use this file except in compliance with the License. You may obtain a copy
+*  of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software distributed under
+*  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS 
+*  OF ANY KIND, either express or implied. See the License for the specific language
+*  governing permissions and limitations under the License.
+*/
+.larue-youtube-video {
+    position: relative;
+    img {
+        width: 100%;
+        display: block;
+        height:auto;
+    }
+
+    a span {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: url("/etc/designs/larue/icons/play_icon.png") no-repeat;
+        background-position: 50% 50%;
+    }
+
+    .offline-overlay {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        background-color: rgba(255,255,255,0.5);
+        color: #000000;
+        font-weight: bold;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 5vw;
+        .video-unavailable {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            font-family: AkzidenzGroteskBoldCond, arial;
+        }
+    }
+}

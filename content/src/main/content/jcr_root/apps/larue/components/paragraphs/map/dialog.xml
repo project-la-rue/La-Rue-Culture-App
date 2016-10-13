@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Map details"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <width
+            jcr:primaryType="cq:Widget"
+            defaultValue="100%"
+            fieldDescription="Map Width (default 100%)"
+            fieldLabel="Width"
+            name="./width"
+            xtype="textfield"/>
+        <height
+            jcr:primaryType="cq:Widget"
+            defaultValue="450px"
+            fieldDescription="Map Height (default 450px)"
+            fieldLabel="Height"
+            name="./height"
+            xtype="textfield"/>
+        <address
+            jcr:primaryType="cq:Widget"
+            defaultValue="821 Pacific Hwy,Chatswood,NSW,2067"
+            fieldDescription="Search Address"
+            fieldLabel="Address"
+            name="./address"
+            xtype="textfield"/>
+        <zoom
+            jcr:primaryType="cq:Widget"
+            defaultValue="12"
+            fieldDescription="Map Zoom Level"
+            fieldLabel="Zoom Level"
+            name="./zoom"
+            xtype="numberfield"/>
+        <path
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Path overlay (Encoded polyline)"
+            fieldLabel="Path"
+            name="./path"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

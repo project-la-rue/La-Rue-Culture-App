@@ -1,0 +1,11 @@
+.DS_Store
+content/target/
+bundle/target/
+
+.vlt
+*.jar
+
+# Brackets config
+.brackets.json
+*.iml
+.idea

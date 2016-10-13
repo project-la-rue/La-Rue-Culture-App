@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:EditConfig">
+    <cq:inplaceEditing
+        jcr:primaryType="cq:InplaceEditingConfig"
+        active="{Boolean}true"
+        editorType="text">
+        <config jcr:primaryType="nt:unstructured">
+            <rtePlugins jcr:primaryType="nt:unstructured">
+                <paraformat
+                    jcr:primaryType="nt:unstructured"
+                    features="*">
+                    <formats jcr:primaryType="cq:WidgetCollection">
+                        <p
+                            jcr:primaryType="nt:unstructured"
+                            description="Paragraph"
+                            tag="p"/>
+                        <h1
+                            jcr:primaryType="nt:unstructured"
+                            description="Heading 1 / Page Heading"
+                            tag="h1"/>
+                        <h2
+                            jcr:primaryType="nt:unstructured"
+                            description="Heading 2"
+                            tag="h2"/>
+                        <h3
+                            jcr:primaryType="nt:unstructured"
+                            description="Heading 3"
+                            tag="h3"/>
+                        <h4
+                            jcr:primaryType="nt:unstructured"
+                            description="Heading 4"
+                            tag="h4"/>
+                        <Web_x0020_Banner_x0020_Carousel
+                            jcr:primaryType="nt:unstructured"
+                            description="Web Banner/ Carousel"
+                            tag="h5"/>
+                        <Disclaimer_x0020_Footnotes
+                            jcr:primaryType="nt:unstructured"
+                            description="Disclaimer / Footnotes"
+                            tag="h6"/>
+                    </formats>
+                </paraformat>
+                <fontstyles
+                    jcr:primaryType="nt:unstructured"
+                    features="-">
+                    <styles jcr:primaryType="cq:WidgetCollection">
+                        <egyptienne
+                            jcr:primaryType="cq:WidgetCollection"
+                            cssName="egyptienne"
+                            text="Egyptienne"/>
+                        <futura
+                            jcr:primaryType="cq:WidgetCollection"
+                            cssName="futura-std-bold"
+                            text="Futura Std Bold"/>
+                        <humanist
+                            jcr:primaryType="cq:WidgetCollection"
+                            cssName="humanist&#xa;"
+                            text="Humanist"/>
+                    </styles>
+                </fontstyles>
+            </rtePlugins>
+        </config>
+    </cq:inplaceEditing>
+</jcr:root>

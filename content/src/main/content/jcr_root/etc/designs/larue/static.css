@@ -1,0 +1,46 @@
+/*
+*  Copyright 2016 Adobe Systems Incorporated. All rights reserved.
+* 
+*  This file is licensed to you under the Apache License, Version 2.0 (the "License"); 
+*  you may not use this file except in compliance with the License. You may obtain a copy
+*  of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software distributed under
+*  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS 
+*  OF ANY KIND, either express or implied. See the License for the specific language
+*  governing permissions and limitations under the License.
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: GothicBN;
+    src: url(fonts/TradeGothicLTStd/TradeGothicLTStd-BdCn20.otf);
+}
+
+@font-face {
+    font-family: GothicSTD;
+    src: url(fonts/TradeGothicLTStd/TradeGothicLTStd.otf);
+}
+
+@font-face {
+    font-family: GothicSTDLight;
+    src: url(fonts/TradeGothicLTStd/TradeGothicLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AkzidenzGroteskRegular;
+    src: url(fonts/AkzidenzGrotesk/AkzidenzGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: AkzidenzGroteskExtraBoldCond;
+    src: url(fonts/AkzidenzGrotesk/AkzidenzGrotesk-ExtraBoldCond.otf);
+}
+
+@font-face {
+    font-family: AkzidenzGroteskBoldCond;
+    src: url(fonts/AkzidenzGrotesk/AkzidenzGrotesk-BoldCond.otf);
+}

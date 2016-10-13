@@ -1,0 +1,4 @@
+#base=js
+
+lib/slick.js
+pages/rideevent.js

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/larue">
+        <exclude pattern="/apps/larue/install" />
+    </filter>
+    <filter root="/etc/designs/larue"/>
+    <filter root="/etc/clientlibs/larue">
+        <exclude pattern=".*generated"/>
+    </filter>
+    <filter root="/etc/cloudservices/googlemapservice"/>
+    <filter root="/etc/contentsync/templates/dps-larue"/>
+    <!-- All articles that need to be versioned: -->
+    <filter root="/content/mobileapps/larue"/>
+    <filter root="/content/forms/af/larue"/>
+    <filter root="/content/dam/formsanddocuments/larue"/>
+    <filter root="/etc/workflow/models/article_submission"/>
+    <filter root="/etc/workflow/launcher/config/process_larue_content_submission"/>
+</workspaceFilter>

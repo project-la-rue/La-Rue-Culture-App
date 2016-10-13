@@ -1,0 +1,107 @@
+/*
+*  Copyright 2016 Adobe Systems Incorporated. All rights reserved.
+* 
+*  This file is licensed to you under the Apache License, Version 2.0 (the "License"); 
+*  you may not use this file except in compliance with the License. You may obtain a copy
+*  of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software distributed under
+*  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS 
+*  OF ANY KIND, either express or implied. See the License for the specific language
+*  governing permissions and limitations under the License.
+*/
+.larue-weatherinfo {
+    position: relative;
+    overflow: hidden;
+    .image {
+        width: 100vw;
+        min-height: 50vw;
+        background-color: black;
+        img {
+            width: 100%;
+        }
+    }
+    .text {
+        position: absolute;
+        bottom: 0;
+        margin: 8vw;
+        .title {
+            font-size: 7.8vw;
+            font-family: AkzidenzGroteskExtraBoldCond, arial;
+            letter-spacing: 0.0625em;
+            color: #fff;
+            &.location-name {
+                text-transform: uppercase;
+                font-family: AkzidenzGroteskBoldCond;
+                //font-size: 1.77vw;
+                font-size: 25px;
+            }
+            &.temperature {
+                //font-size: 7.8vw;
+                font-size: 110px;
+            }
+            &.description {
+                font-size: 40px;
+                //font-size: 2.83vw;
+            }
+            &.forecast {
+                font-size: 28px;
+                //font-size: 1.98vw;
+                a:any-link {
+                    color: #edc894;
+                    text-decoration: none;
+                    display: block;
+                    margin: 2vw 0;
+                    border-radius: 2vw;
+                    .arrow {
+                        color: #edc894;
+                        right: 5vw;
+                        bottom: 6vw;
+                    }
+                }
+                a:-webkit-any-link {
+                    color: #edc894;
+                    text-decoration: none;
+                    display: block;
+                    margin: 2vw 0;
+                    border-radius: 2vw;
+                    .arrow {
+                        color: #edc894;
+                        right: 5vw;
+                        bottom: 6vw;
+                    }
+                }
+                a:-moz-any-link {
+                    color: #edc894;
+                    text-decoration: none;
+                    display: block;
+                    margin: 2vw 0;
+                    border-radius: 2vw;
+                    .arrow {
+                        color: #edc894;
+                        right: 5vw;
+                        bottom: 6vw;
+                    }
+                }
+            }
+        }
+        .subtitle {
+            font-size: 3.8vw;
+            margin-top: 2vw;
+            font-family: GothicSTD, arial;
+            letter-spacing: 0.0625em;
+            color: #fff;
+        }
+        &.feed-title {
+            bottom: initial;
+            top: 0px;
+            width: 100%;
+            margin: 8vw 0px;
+            .title {
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 3.8vw;
+            }
+        }
+    }
+}

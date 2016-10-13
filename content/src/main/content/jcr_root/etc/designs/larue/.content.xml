@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <fonts/>
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="La Rue Design"
+        sling:resourceType="wcm/core/components/designer">
+        <article jcr:primaryType="nt:unstructured">
+            <par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/apps/larue/components/paragraphs/image,/apps/larue/components/paragraphs/imagetext,/apps/larue/components/paragraphs/sociallinks,/apps/larue/components/paragraphs/text,/apps/larue/components/paragraphs/articleauthor,/apps/larue/components/paragraphs/video]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+            <relatedpar
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/apps/larue/components/paragraphs/relatedarticle]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </relatedpar>
+        </article>
+        <rideevent jcr:primaryType="nt:unstructured">
+            <par
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/apps/larue/components/paragraphs/text,/apps/larue/components/paragraphs/guide,/apps/larue/components/paragraphs/guides,/apps/larue/components/paragraphs/ridephotos,/apps/larue/components/paragraphs/provided]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+            <relatedpar
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/apps/larue/components/paragraphs/relatedarticle]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </relatedpar>
+        </rideevent>
+    </jcr:content>
+    <icons/>
+    <static.css/>
+</jcr:root>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/larue"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:template="/apps/larue/templates/registrationportal"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Registration"
+        sling:resourceType="larue/components/pages/registrationportal"
+        dps-access="free"
+        dps-adType="static"
+        dps-hideFromBrowsePage="{Boolean}true"
+        dps-importance="normal"
+        dps-resourceType="dps:Article"
+        dps-title="Registration Portal"
+        pge-type="app-content">
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/shared/APP-ICON-120.png"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+        <social-share-image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"/>
+    </jcr:content>
+</jcr:root>

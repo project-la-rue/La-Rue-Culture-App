@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <asset
+            jcr:primaryType="cq:Widget"
+            title="Video"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <file
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Configures the path to the video file"
+                    fieldLabel="Video File"
+                    name="./file"
+                    rootPath="/content/dam/larue"
+                    xtype="pathfield"/>
+                <size
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Configures the width and height of the video"
+                    fieldLabel="Video Size"
+                    heightParameter="./height"
+                    heightSuffix="px"
+                    widthParameter="./width"
+                    widthSuffix="px"
+                    xtype="sizefield"/>
+            </items>
+        </asset>
+    </items>
+</jcr:root>

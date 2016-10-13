@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Ride Event Page Template"
+    jcr:primaryType="cq:Template"
+    jcr:title="Ride Event"
+    allowedParents="[/apps/larue/templates/issue]"
+    allowedPaths="[/content/phonegap(/.*)?,/content/mobileapps(/.*)?]"
+    ranking="{Long}1">
+    <jcr:content
+        cq:cloudserviceconfigs="[/etc/cloudservices/googlemapservice/larue_googlemap_config]"
+        cq:designPath="/etc/designs/larue"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="larue/components/pages/rideevent"
+        dps-resourceType="dps:Article">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <slideshow
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/slideshow"/>
+            <text1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"/>
+            <text2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"/>
+            <text3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"/>
+            <guides
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/guides"/>
+            <provided
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/provided"/>
+            <ridephotos
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/ridephotos"/>
+        </par>
+        <relatedarticles
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticles"
+            enabled="{Boolean}true"
+            numOfRecords="{Decimal}3"/>
+        <question
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="/apps/larue/components/paragraphs/question"
+            numOfRecords="{Decimal}3"/>
+    </jcr:content>
+</jcr:root>

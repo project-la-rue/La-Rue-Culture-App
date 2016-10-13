@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/larue"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:template="/apps/larue/templates/article"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Leave It On The Road"
+        sling:resourceType="larue/components/pages/article"
+        dps-abstract="100+ miles a day x 14 days = hard! The group was fast. The days were long. But the cause made it all worth it. We rode from Portland to Los Angeles in 14 days to raise money and awareness for cancer research with Leave It On The Road. "
+        dps-access="free"
+        dps-adType="static"
+        dps-author="Tracy L Chandler"
+        dps-hideFromBrowsePage="{Boolean}false"
+        dps-importance="normal"
+        dps-isAdvertisement="{Boolean}false"
+        dps-resourceType="dps:Article"
+        dps-title="Leave It On The Road"
+        pge-type="app-content">
+        <imagetext
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/imagetext"
+            fileReference="/content/dam/mobileapps/larue/leave-it-on-the-road/TracyLChandler_LeaveItOnTheRoad_04262016_02.jpg"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <articleauthor_497098859
+                jcr:created="{Date}2016-05-06T16:04:51.414-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-05-06T16:07:37.344-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/articleauthor"
+                fileReference="/content/dam/mobileapps/larue/leave-it-on-the-road/avatar.jpg"
+                title="&lt;p>&lt;b>&amp;nbsp;Tracy L Chandler&amp;nbsp;&lt;/b>&lt;/p>&#xa;">
+            </articleauthor_497098859>
+            <text1
+                jcr:lastModified="{Date}2016-05-01T18:51:33.674-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>100+ miles a day x 14 days = hard! The group was fast. The days were long. But the cause made it all worth it. We rode from Portland to Los Angeles in 14 days to raise money and awareness for cancer research with Leave It On The Road.&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <image1
+                jcr:lastModified="{Date}2016-05-01T18:55:16.367-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/mobileapps/larue/leave-it-on-the-road/TracyLChandler_LeaveItOnTheRoad_04262016_01.jpg"/>
+            <image
+                jcr:created="{Date}2016-05-01T18:55:00.669-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-05-01T18:55:19.876-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/mobileapps/larue/leave-it-on-the-road/TracyLChandler_LeaveItOnTheRoad_04262016_02.jpg"/>
+            <image2
+                jcr:lastModified="{Date}2016-05-01T18:54:36.410-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/mobileapps/larue/leave-it-on-the-road/TracyLChandler_LeaveItOnTheRoad_04262016_03.jpg"/>
+            <articleauthor
+                jcr:lastModified="{Date}2016-05-06T16:07:49.853-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/articleauthor"
+                fileReference="/content/dam/mobileapps/larue/leave-it-on-the-road/avatar.jpg"
+                title="&lt;p>&lt;b>&amp;nbsp;Tracy L Chandler&amp;nbsp;&lt;/b>&lt;/p>&#xa;">
+            </articleauthor>
+            <sociallinks
+                jcr:lastModified="{Date}2016-05-06T18:26:05.750-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/sociallinks"
+                instagram="https://www.instagram.com/tracylchandler"
+                twitter="https://twitter.com/hashtag/crushthecoast"/>
+        </par>
+        <relatedarticle1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <relatedarticle2
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <relatedarticle3
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/larue/leave-it-on-the-road/TracyLChandler_LeaveItOnTheRoad_04262016_02.jpg"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+        <social-share-image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/larue/leave-it-on-the-road/TracyLChandler_LeaveItOnTheRoad_04262016_02.jpg"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,3 @@
+#base=js
+
+rides-editor-widget.js

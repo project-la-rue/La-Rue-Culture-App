@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[/etc/cloudservices/googlemapservice/larue_googlemap_config]"
+        cq:designPath="/etc/designs/larue"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:template="/apps/larue/templates/rideevent"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="SUMMER RIDE"
+        sling:resourceType="larue/components/pages/rideevent"
+        dps-access="metered"
+        dps-resourceType="dps:Article"
+        dps-shortTitle="SUMMIT"
+        dps-title="SUMMER RIDE"
+        end-date="2016-06-27"
+        guidespanel=""
+        pge-type="app-content"
+        photopanel=""
+        rideschedule="/content/dam/mobileapps/shared/multisurvey_131046285058577050.csv"
+        rideseditorbox="\[{&quot;name&quot;:&quot;ITEM01&quot;,&quot;date&quot;:&quot;2016-05-06&quot;,&quot;rideTime&quot;:&quot;8:00am - 9:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM02&quot;,&quot;date&quot;:&quot;2016-05-06&quot;,&quot;rideTime&quot;:&quot;9:00am - 10:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM03&quot;,&quot;date&quot;:&quot;2016-05-07&quot;,&quot;rideTime&quot;:&quot;7:00am - 8:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM04&quot;,&quot;date&quot;:&quot;2016-05-07&quot;,&quot;rideTime&quot;:&quot;8:00am - 9:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM06&quot;,&quot;date&quot;:&quot;2016-05-08&quot;,&quot;rideTime&quot;:&quot;8:00am - 9:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM05&quot;,&quot;date&quot;:&quot;2016-05-08&quot;,&quot;rideTime&quot;:&quot;7:00am - 8:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;}]"
+        slideshowpanel=""
+        start-date="2016-06-26">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <slideshow
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/slideshow">
+                <slides jcr:primaryType="nt:unstructured">
+                    <_x0033_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/big9.jpg"/>
+                    <_x0032_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/big10.jpg"/>
+                    <_x0031_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/big0.jpg"/>
+                </slides>
+            </slideshow>
+            <text1
+                jcr:lastModified="{Date}2016-04-22T22:08:04.323+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>This is basic riding. These rides are not a lot harder than an easy recovery ride. It is key to keep your heart rate below your threshold (high intensity). This can initially make riding in groups hard. You should attempt to be disciplined. Think of the maximum heart rate as a line that can’t be crossed. You can certainly go on group rides, and you’ll find that it will get easier and easier to keep up with the same heart rate, but in the beginning, it can be hard depending on who you ride with. Be prepared to be dropped sometimes but remember this: &lt;b>people that ride the same speed all year, ride the same speed all year.&lt;/b> Our goal is to prepare to ride even faster when the time comes.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <text2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"/>
+            <text3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"/>
+            <guides
+                jcr:lastModified="{Date}2016-04-22T22:06:48.430+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/guides">
+                <guides jcr:primaryType="nt:unstructured">
+                    <_x0031_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/avatar1.png"
+                        guidedescription="Winner of 2015"
+                        guidename="Tom Walker"/>
+                </guides>
+            </guides>
+            <provided
+                jcr:lastModified="{Date}2016-05-07T01:57:35.555-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/provided"
+                text="&lt;p>Bikes&lt;br>&#xa;Helmets&lt;br>&#xa;Water bottles&lt;br>&#xa;Ride nutrition&lt;br>&#xa;Ride guides&lt;br>&#xa;Great experiences&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <ridephotos
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/ridephotos">
+                <photos jcr:primaryType="nt:unstructured">
+                    <_x0031_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/s2.jpg"/>
+                    <_x0036_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/s3.JPG"/>
+                    <_x0032_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/s9.JPG"/>
+                    <_x0035_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/s5.jpg"/>
+                    <_x0034_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/s10.jpg"/>
+                    <_x0033_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/s8.jpg"/>
+                    <_x0037_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/s1.jpg"/>
+                    <_x0038_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/summer-ride/big5.jpg"/>
+                </photos>
+            </ridephotos>
+        </par>
+        <relatedarticle1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <relatedarticle2
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <relatedarticle3
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <question
+            jcr:lastModified="{Date}2016-04-22T22:12:01.278+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/question"
+            support-contact="BEN"
+            support-email="brabner@adobe.com"/>
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/larue/summer-ride/big8.jpg"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+        <social-share-image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/geometrixx-outdoors/app/icons/icon.png"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+    </jcr:content>
+</jcr:root>

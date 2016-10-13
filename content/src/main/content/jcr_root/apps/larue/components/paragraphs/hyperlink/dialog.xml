@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <hyperlink
+            jcr:primaryType="cq:Widget"
+            title="Hyperlink"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <url
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Link URL"
+                    name="./url"
+                    xtype="textfield"/>
+            </items>
+        </hyperlink>
+        <appearance
+            jcr:primaryType="cq:Widget"
+            title="Appearance"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <text
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Button Message"
+                    name="./text"
+                    xtype="textfield"/>
+                <style
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="color"
+                    fieldLabel="Button Style"
+                    name="./style"
+                    type="radio"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <color
+                            jcr:primaryType="nt:unstructured"
+                            text="Color"
+                            value="color"/>
+                        <flat
+                            jcr:primaryType="nt:unstructured"
+                            text="Flat"
+                            value="flat"/>
+                    </options>
+                </style>
+                <textColor
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Text Color"
+                    name="./textColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+                <backgroundColor
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Background Color"
+                    name="./backgroundColor"
+                    showHexValue="{Boolean}true"
+                    xtype="colorfield"/>
+            </items>
+        </appearance>
+        <image
+            jcr:primaryType="cq:Widget"
+            cropParameter="./imageCrop"
+            ddGroups="[media]"
+            fileNameParameter="./fileName"
+            fileReferenceParameter="./fileReference"
+            mapParameter="./imageMap"
+            name="./file"
+            requestSuffix=".img.png"
+            rotateParameter="./imageRotate"
+            title="Icon"
+            xtype="html5smartimage"/>
+    </items>
+</jcr:root>

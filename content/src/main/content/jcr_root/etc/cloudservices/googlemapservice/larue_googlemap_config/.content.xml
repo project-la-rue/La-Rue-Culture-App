@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath=" /etc/designs/cloudservices/googlemapservice"
+        cq:lastModified="{Date}2016-04-07T22:26:20.014-07:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2016-04-07T22:31:39.110-07:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/larue/templates/googlemapservicepage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2016-04-07T22:26:20.012-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="larue"
+        jcr:uuid="21aebc30-dbee-44bf-a715-d6751e8594f4"
+        sling:resourceType="larue/components/googlemapservicepage"
+        apiKey="AIzaSyBkXpjIObVzFHyLNjwylo15OkqDPSCQUkU"/>
+</jcr:root>

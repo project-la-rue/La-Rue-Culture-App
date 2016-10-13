@@ -1,0 +1,358 @@
+/*
+*  Copyright 2016 Adobe Systems Incorporated. All rights reserved.
+* 
+*  This file is licensed to you under the Apache License, Version 2.0 (the "License"); 
+*  you may not use this file except in compliance with the License. You may obtain a copy
+*  of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software distributed under
+*  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS 
+*  OF ANY KIND, either express or implied. See the License for the specific language
+*  governing permissions and limitations under the License.
+*/
+jQuery(function () {
+    var valueMap = {
+        // Height
+        11538: "sm",
+        11539: "med",
+        11540: "l",
+        11541: "xl",
+
+        // Experience
+        11615: "1 quarter",
+        11616: "1 month",
+        11617: "1 week",
+        11618: "3 week",
+
+        // Pedal Type
+        11550: "Shimano Road",
+        11551: "Shimano MTB",
+        11552: "Look/KEO",
+        11553: "Time",
+        11554: "Speedplay ZERO",
+        11555: "Speedplay X",
+        11556: "Speedplay Light",
+        11557: "Flat (for sneakers)",
+
+        // Primary Industry
+        10049: "Advertising",
+        10050: "Agriculture, Fishing and Forestry",
+        10051: "Architecture",
+        10052: "Broadcast/Cable/TV/Radio",
+        10053: "Construction",
+        10054: "Distribution/Wholesale",
+        11460: "Education: Higher ed",
+        11461: "Education: K-12",
+        11462: "Engineering/Management services",
+        11463: "Film/Video/Animation Production",
+        10058: "Financial Services",
+        11464: "Government: Federal",
+        11465: "Government: Military/Aerospace/Defense",
+        11466: "Government: State/Local",
+        10062: "Graphic Design",
+        10063: "Healthcare",
+        11467: "Hospitality/Food services",
+        10066: "Insurance",
+        10067: "Legal",
+        10068: "Manufacturing",
+        10676: "Media/Entertainment/Arts",
+        10070: "Membership Organization",
+        10071: "Mining",
+        10072: "Non-Profit/Charity",
+        10073: "Online Commerce",
+        11468: "Other",
+        10075: "Pharmaceuticals/Biotech",
+        10076: "Photography",
+        11469: "Printing/Publishing",
+        11470: "Professional Services (Agency/Business)",
+        11471: "Professional Services (Technical,Web,IT)",
+        10080: "Public Relations",
+        10081: "Real Estate",
+        10082: "Retail",
+        10083: "Services",
+        10084: "Technology/High Tech",
+        10677: "Telecommunications",
+        10086: "Transportation",
+        10087: "Utilities",
+
+        // Country
+        10336: "United States",
+        10337: "Canada",
+        10434: "India",
+        10350: "Australia",
+        10490: "New Zealand",
+        10338: "Afghanistan",
+        10339: "Albania",
+        10340: "Algeria",
+        10341: "American Samoa",
+        10342: "Andorra",
+        10343: "Angola",
+        10344: "Anguilla",
+        10345: "Antarctica",
+        10346: "Antigua/Barbuda",
+        10347: "Argentina",
+        10348: "Armenia",
+        10349: "Aruba",
+        10351: "Austria",
+        10352: "Azerbaijan",
+        10353: "Bahamas",
+        10354: "Bahrain",
+        10355: "Bangladesh",
+        10356: "Barbados",
+        10357: "Belarus",
+        10358: "Belgium",
+        10359: "Belize",
+        10360: "Benin",
+        10361: "Bermuda",
+        10362: "Bhutan",
+        10363: "Bolivia",
+        10364: "Bosnia-Herzeg.",
+        10365: "Botswana",
+        10366: "Bouvet Island",
+        10367: "Brazil",
+        10368: "Brit Ind Ocn Tr",
+        10369: "Brit.Virgin Is.",
+        10370: "Brunei",
+        10371: "Bulgaria",
+        10372: "Burkina Faso",
+        10373: "Burundi",
+        10374: "Cambodia",
+        10375: "Cameroon",
+        10376: "Cape Verde Is.",
+        10377: "Cayman Islands",
+        10378: "Central Afr.Rep",
+        10379: "Chad",
+        10380: "Chile",
+        10381: "China",
+        10382: "Christmas Islnd",
+        10383: "Cocos Islands",
+        10384: "Colombia",
+        10385: "Comoros",
+        10386: "Congo",
+        10387: "Cook Islands",
+        10388: "Costa Rica",
+        10389: "Cote D'Ivoire",
+        10390: "Croatia",
+        10391: "Cyprus",
+        10392: "Czech Republic",
+        10393: "Denmark",
+        10394: "Djibouti",
+        10395: "Dominica",
+        10396: "Dominican Rep.",
+        10397: "Ecuador",
+        10398: "Egypt",
+        10399: "El Salvador",
+        10400: "Equatorial Gui.",
+        10401: "Eritrea",
+        10402: "Estonia",
+        10403: "Ethiopia",
+        10404: "Falkland Islnds",
+        10405: "Faroe Islands",
+        10406: "Fiji",
+        10407: "Finland",
+        10408: "France",
+        10409: "Fren.Polynesia",
+        10410: "French Guyana",
+        10411: "French Sthrn Tr",
+        10412: "Gabon",
+        10413: "Gambia",
+        10414: "Georgia",
+        10415: "Germany",
+        10416: "Ghana",
+        10417: "Gibraltar",
+        10418: "Greece",
+        10419: "Greenland",
+        10420: "Grenada",
+        10421: "Guadeloupe",
+        10422: "Guam",
+        10423: "Guatemala",
+        10424: "Guernsey",
+        10425: "Guinea",
+        10426: "Guinea-Bissau",
+        10427: "Guyana",
+        10428: "Haiti",
+        10655: "Heard&amp;McDom Isl",
+        10430: "Honduras",
+        10431: "Hong Kong",
+        10432: "Hungary",
+        10433: "Iceland",
+        10435: "Indonesia",
+        10436: "Iraq",
+        10437: "Ireland",
+        10438: "Isle of Man",
+        10439: "Israel",
+        10440: "Italy",
+        10441: "Jamaica",
+        10442: "Japan",
+        10443: "Jersey",
+        10444: "Jordan",
+        10445: "Kazakhstan",
+        10446: "Kenya",
+        10447: "Kiribati",
+        10448: "Korea",
+        10449: "Kuwait",
+        10450: "Kyrgyzstan",
+        10451: "Laos",
+        10452: "Latvia",
+        10453: "Lebanon",
+        10454: "Lesotho",
+        10455: "Liberia",
+        10456: "Libya",
+        10457: "Liechtenstein",
+        10458: "Lithuania",
+        10459: "Luxembourg",
+        10460: "Macao",
+        10461: "Macedonia",
+        10462: "Madagascar",
+        10463: "Malawi",
+        10464: "Malaysia",
+        10465: "Maldives",
+        10466: "Mali",
+        10467: "Malta",
+        10468: "Marshall island",
+        10469: "Martinique",
+        10470: "Mauritania",
+        10471: "Mauritius",
+        10472: "Mayotte",
+        10473: "Mexico",
+        10474: "Micronesia",
+        10475: "Minor Outl.Ins.",
+        10476: "Moldova",
+        10477: "Monaco",
+        10478: "Mongolia",
+        10479: "Montenegro",
+        10480: "Montserrat",
+        10481: "Morocco",
+        10482: "Mozambique",
+        10483: "N.Mariana Islnd",
+        10484: "Namibia",
+        10485: "Nauru",
+        10486: "Nepal",
+        10487: "Nether.Antilles",
+        10488: "Netherlands",
+        10489: "New Caledonia",
+        10491: "Nicaragua",
+        10492: "Niger",
+        10493: "Nigeria",
+        10494: "Niue",
+        10495: "Norfolk Island",
+        10498: "Pakistan",
+        10499: "Palau",
+        10500: "Palestinian Territory",
+        10501: "Panama",
+        10502: "Papua Nw Guinea",
+        10503: "Paraguay",
+        10504: "Peru",
+        10505: "Philippines",
+        10506: "Pitcairn",
+        10507: "Poland",
+        10508: "Portugal",
+        10509: "Puerto Rico",
+        10510: "Qatar",
+        10511: "Réunion",
+        10512: "Romania",
+        10513: "Russian Fed.",
+        10514: "Rwanda",
+        10515: "S.Tome,Principe",
+        10516: "Samoa",
+        10517: "San Marino",
+        10518: "Saudi Arabia",
+        10519: "Senegal",
+        10520: "Serbia",
+        10521: "Seychelles",
+        10656: "SGeorgia&amp;SS Isl",
+        10523: "Sierra Leone",
+        10524: "Singapore",
+        10525: "Slovakia",
+        10526: "Slovenia",
+        10527: "Solomon Islands",
+        10528: "Somalia",
+        10529: "South Africa",
+        10530: "Spain",
+        10531: "Sri Lanka",
+        10532: "St. Helena",
+        10533: "St. Lucia",
+        10534: "St. Vincent",
+        10657: "St.Kitts&amp;Nevis",
+        10536: "St.Pier,Miquel.",
+        10537: "Suriname",
+        10658: "Svalbard &amp;JMIsl",
+        10539: "Swaziland",
+        10540: "Sweden",
+        10541: "Switzerland",
+        10542: "Taiwan",
+        10543: "Tajikistan",
+        10544: "Tanzania",
+        10545: "Thailand",
+        10546: "Timor-Leste",
+        10547: "Togo",
+        10548: "Tokelau",
+        10549: "Tonga",
+        10550: "Trinidad,Tobago",
+        10551: "Tunisia",
+        10552: "Turkey",
+        10553: "Turkmenistan",
+        10659: "Turks&amp;Caicos Is",
+        10555: "Tuvalu",
+        10556: "Uganda",
+        10557: "Ukraine",
+        10558: "Unit.Arab Emir.",
+        10559: "United Kingdom",
+        10560: "Uruguay",
+        10561: "US Virgin Is.",
+        10562: "Uzbekistan",
+        10563: "Vanuatu",
+        10564: "Vatican City St",
+        10565: "Venzuela",
+        10566: "Vietnam",
+        10567: "Wallis,Futuna",
+        10568: "Western Sahara",
+        10569: "Yemen",
+        10570: "Zambia",
+        10571: "Zimbabwe"
+    }
+
+    function parseQuery(qstr) {
+        var query = {};
+        var a = qstr.substr(1).split('&');
+        for (var i = 0; i < a.length; i++) {
+            var b = a[i].split('=');
+            query[decodeURI(b[0])] = decodeURI(b[1] || '');
+        }
+        return query;
+    }
+
+    var userData = parseQuery(location.href.substr(location.href.lastIndexOf("?")));
+
+    var profile = new LARUE.Profile();
+    var email = userData[profile.CONST.EMAIL];
+    var fname = userData[profile.CONST.FIRSTNAME];
+    var lname = userData[profile.CONST.LASTNAME];
+    var title = userData[profile.CONST.JOBTITLE];
+    var organization = userData[profile.CONST.COMPANY];
+    var country = userData[profile.CONST.COUNTRY];
+    var address = userData[profile.CONST.ADDRESS];
+    var city = userData[profile.CONST.CITY];
+    var state = userData[profile.CONST.STATE];
+    var zip = userData[profile.CONST.ZIP];
+    var phone = userData[profile.CONST.PHONE];
+    var industry = userData[profile.CONST.INDUSTRY];
+    var bike_size = userData[profile.CONST.HEIGHT];
+    var pedal_type = userData[profile.CONST.PEDAL];
+    var cycling_fitness = userData[profile.CONST.EXP];
+    var own_bikeYN = userData["own_bikeYN"];
+    var eventRegURL = userData["eventRegURL"];
+    if (!eventRegURL) {
+        eventRegURL = "http://www.adobeeventsonline.com/Cycling/2016/Test/";
+    }
+    var src = eventRegURL + "?email=" + ((email === null || email === undefined) ? "" : email) + "&fname=" + ((fname === null || fname === undefined) ? "" : fname) + "&lname=" + ((lname === null || lname === undefined) ? "" : lname) + "&title=" + ((title === null || title === undefined) ? "" : title) + "&organization=" + ((organization == null || organization === undefined) ? "" : organization) + "&country=" + ((country === null || country === undefined) ? "" : valueMap[country]) + "&address=" + ((address === null || address === undefined) ? "" : address) + "&city=" + ((city === null || city === undefined) ? "" : city) + "&state=" + ((state === null || state === undefined) ? "" : state) + "&zip=" + ((zip === null || zip === undefined) ? "" : zip) + "&phone=" + ((phone === null || phone === undefined) ? "" : phone) + "&industry=" + ((industry === null || industry === undefined) ? "" : valueMap[industry]) + "&bike_size=" + ((bike_size === null || bike_size === undefined) ? "" : valueMap[bike_size]) + "&pedal_type=" + ((pedal_type === null || pedal_type === undefined) ? "" : valueMap[pedal_type]) + "&cycling_fitness=" + ((cycling_fitness === null || cycling_fitness === undefined) ? "" : valueMap[cycling_fitness]) + "&own_bikeYN=" + ((own_bikeYN === null || own_bikeYN === undefined) ? "" : own_bikeYN);
+
+    var iframe = $("iframe#registration-portal");
+    iframe.attr("src", src);
+    iframe.height($(window).height());
+    iframe.width($(window).width());
+    $(window).resize(function () {
+        iframe.height($(window).height());
+        iframe.width($(window).width());
+    });
+});

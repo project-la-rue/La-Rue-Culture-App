@@ -1,0 +1,197 @@
+/*
+*  Copyright 2016 Adobe Systems Incorporated. All rights reserved.
+* 
+*  This file is licensed to you under the Apache License, Version 2.0 (the "License"); 
+*  you may not use this file except in compliance with the License. You may obtain a copy
+*  of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software distributed under
+*  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS 
+*  OF ANY KIND, either express or implied. See the License for the specific language
+*  governing permissions and limitations under the License.
+*/
+#ride-schedule {
+    background-color: #2c2d32;
+}
+#ride-schedule-header {
+    color: white;
+    font-family: GothicBN;
+    padding-left: 6vw;
+    padding-top: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#bring-bike {
+    color: #BCBCBC;
+    font-family: GothicSTD;
+    font-size: 14px;
+    padding-left: 25px;
+    float: left;
+    width: 180px;
+}
+.bike-toggle {
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 24px;
+    cursor: pointer;
+    width: 50px;
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    margin-top: -8px;
+    margin-left: 12px;
+}
+.bike-toggle button {
+    cursor: pointer;
+    outline: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 100%;
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-color: #BCBCBC;
+    float: left;
+    transition: left 0.3s;
+}
+.bike-toggle-selected {
+    background-color: black;
+    border: 2px solid black;
+}
+.bike-toggle-selected button {
+    left: 26px;
+    top: 0;
+    margin: 0;
+    border: none;
+    width: 24px;
+    height: 24px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.schedule-table {
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid #2c2d32;
+}
+.date-column {
+    width: 75px;
+    text-align: center;
+    font-family: GothicSTD;
+    border-right: 1px dashed #D5D5D5;
+    vertical-align: top;
+    padding-top: 22px;
+}
+.date-number {
+    font-size: 38px;
+    color: black;
+    font-family: GothicBN;
+}
+.date-month {
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    font-family: GothicBN;
+}
+.date-day {
+    font-size: 16px;
+    color: #BCBCBC;
+    font-family: GothicBN;
+}
+.dashed-top {
+    border-top: 1px dashed #D5D5D5;
+}
+.ride-data {
+    font-family: GothicSTD;
+}
+.ride-time {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 38px;
+    font-family: GothicBN;
+}
+.time-hour {}
+.time-minutes {
+    font-size: 26px;
+}
+.time-am-pm {
+    font-size: 18px;
+}
+.ride-information {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #BCBCBC;
+    font-family: GothicSTD;
+}
+.map-button {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #D5D5D5;
+    color: #BCBCBC;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 12px;
+    float: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-family: GothicBN;
+    font-size: 18px;
+}
+.signup-button {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #E7C48E;
+    background-color: #E7C48E;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 12px;
+    float: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-family: GothicBN;
+    font-size: 18px;
+}
+.remaining-spots {
+    margin-top: 27px;
+    color: #BCBCBC;
+}
+.connections-avatars {
+    height: 44px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    .avatar-img {
+        width: 34px;
+        height: 34px;
+        border: 1px solid #D5D5D5;
+        -webkit-border-radius: 34px;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 34px;
+        -moz-background-clip: padding;
+        border-radius: 34px;
+        background-clip: padding-box;
+        margin: 7px 0 0 5px;
+        float: left;
+        background-size: cover;
+        background-position: center center;
+    }
+}

@@ -1,0 +1,191 @@
+/*
+*  Copyright 2016 Adobe Systems Incorporated. All rights reserved.
+* 
+*  This file is licensed to you under the Apache License, Version 2.0 (the "License"); 
+*  you may not use this file except in compliance with the License. You may obtain a copy
+*  of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software distributed under
+*  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS 
+*  OF ANY KIND, either express or implied. See the License for the specific language
+*  governing permissions and limitations under the License.
+*/
+
+.larue-myprofile {
+    background-color: #2c2d32;
+    font-family: arial;
+    .hero {
+        background: url(/etc/designs/larue/icons/avatar-placeholder.png) no-repeat center transparent;
+        background-size: cover;
+        height: 100vw;
+        position: relative;
+        .info {
+            position: absolute;
+            bottom: 5vw;
+            left: 5vw;
+            .fullname {
+                font-family: AkzidenzGroteskBoldCond, arial;
+                letter-spacing: 0.0625em;
+                font-size: 7.8vw;
+                color: #fff;
+            }
+            .jobtitle {
+                font-family: GothicSTDLight, arial;
+                letter-spacing: 0.0625em;
+                font-size: 3.8vw;
+                margin-top: 2vw;
+                color: #807f82;
+            }
+        }
+    }
+    .properties {
+        width: 97vw;
+        margin: 0 auto;
+        padding: 2vw 0;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        .box {
+            width: 20vw;
+            height: 20vw;
+            padding: 6vw;
+            vertical-align: middle;
+            display: inline-block;
+            background-color: #202126;
+            overflow: hidden;
+            .title {
+                font-family: AkzidenzGroteskBoldCond, arial;
+                letter-spacing: 0.0625em;
+                color: #636468;
+                font-size: 4vw;
+                margin-bottom: 4vw;
+            }
+            .value {
+                font-family: GothicSTDLight, arial;
+                letter-spacing: 0.0625em;
+                text-transform: capitalize;
+                color: #fff;
+            }
+        }
+    }
+}
+.larue-profile-edit {
+    display: none;
+    background-color: #202126;
+    font-family: arial;
+    .hero {
+        padding: 15vw 10vw;
+        text-align: center;
+        background-color: #29272c;
+        position: relative;
+        overflow: hidden;
+        .header {
+            color: #fff;
+            font-size: 5vw;
+            z-index: 1;
+            position: relative;
+        }
+        .message {
+            margin-top: 1vw;
+            color: #8b898b;
+            font-size: 3.8vw;
+            line-height: 5vw;
+            z-index: 1;
+            position: relative;
+        }
+        .avatar-bg {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            right: 0;
+            height: 100%;
+            z-index: 0;
+            top: 0;
+            -webkit-filter: blur(100px);
+            filter: blur(100px);
+        }
+        .avatar {
+            margin: 50px 0;
+            width: 25vw;
+            z-index: 1;
+            position: relative;
+            border-radius: 50%;
+            -webkit-box-shadow: 0 0 50px -10px #000;
+            -moz-box-shadow: 0 0 50px -10px #000;
+            box-shadow: 0 0 50px -10px #000;
+        }
+        .fullname {
+            font-family: AkzidenzGroteskBoldCond, arial;
+            letter-spacing: 0.0625em;
+            text-transform: uppercase;
+            font-size: 7.8vw;
+            color: #fff;
+            z-index: 1;
+            position: relative;
+        }
+        .jobtitle {
+            font-family: GothicSTDLight, arial;
+            letter-spacing: 0.0625em;
+            font-size: 3.8vw;
+            margin-top: 2vw;
+            color: #807f82;
+            z-index: 1;
+            position: relative;
+        }
+    }
+    .signup-form {
+        font-size: 4vw;
+        padding-bottom: 40vw;
+        .signup-heading {
+            margin: 8vw 5vw 1vw;
+            color: #fff;
+            font-family: AkzidenzGroteskBoldCond, arial;
+            letter-spacing: 0.0625em;
+            &.cycling-info {
+                margin-bottom: 8vw;
+            }
+        }
+        .signup-subheading {
+            font-family: GothicSTDLight, arial;
+            color: #636468;
+            margin: 0 5vw 8vw;
+        }
+        .signup-form-field {
+            padding: 5vw;
+            background-color: #2b2c31;
+            margin: 1vw;
+            border-radius: 1vw;
+            .label {
+                font-family: AkzidenzGroteskBoldCond, arial;
+                letter-spacing: 0.0625em;
+                width: 25vw;
+                color: #6b6c6f;
+                display: inline-block;
+            }
+            .value {
+                font-family: GothicSTDLight, arial;
+                letter-spacing: 0.0625em;
+                width: 50vw;
+                color: #fff;
+                background: transparent;
+                border: none;
+                font-size: 5vw;
+                display: inline-block;
+            }
+        }
+        .save {
+            font-family: AkzidenzGroteskBoldCond, arial;
+            letter-spacing: 0.0625em;
+            background-color: #e7c48e;
+            padding: 5vw;
+            margin: 2vw;
+            border-radius: 1vw;
+            text-align: center;
+        }
+    }
+}

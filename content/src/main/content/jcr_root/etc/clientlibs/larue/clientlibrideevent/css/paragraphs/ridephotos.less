@@ -1,0 +1,50 @@
+/*
+*  Copyright 2016 Adobe Systems Incorporated. All rights reserved.
+* 
+*  This file is licensed to you under the Apache License, Version 2.0 (the "License"); 
+*  you may not use this file except in compliance with the License. You may obtain a copy
+*  of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software distributed under
+*  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS 
+*  OF ANY KIND, either express or implied. See the License for the specific language
+*  governing permissions and limitations under the License.
+*/
+.larue-ride-photos {
+    font-family: arial;
+    color: #fff;
+    padding: 2vw 2vw 0;
+    .larue-ride-photos-container {
+        background-color: #202126;
+        border-radius: 2vw;
+        .heading {
+            padding: 2em 6vw 1em;
+            font-family: AkzidenzGroteskBoldCond, arial;
+            letter-spacing: 0.0625em;
+            font-size: 4vw;
+        }
+        .slick-ride-photos {
+            margin-bottom: 0;
+            .slick-list {
+                border-radius: 0 0 2vw 2vw;
+                .ride-photo.slick-slide {
+                    position: relative;
+                    &:before {
+                        content: "";
+                        display: block;
+                        padding-top: 100%;
+                    }
+                    img {
+                        position: absolute;
+                        top: -100%;
+                        left: 0;
+                        bottom: -100%;
+                        right: 0;
+                        width: 100%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}

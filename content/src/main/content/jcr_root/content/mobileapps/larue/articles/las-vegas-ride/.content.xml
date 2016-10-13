@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[/etc/cloudservices/googlemapservice/larue_googlemap_config]"
+        cq:designPath="/etc/designs/larue"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:template="/apps/larue/templates/rideevent"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Las Vegas Ride"
+        sling:resourceType="larue/components/pages/rideevent"
+        dps-access="free"
+        dps-adType="static"
+        dps-importance="normal"
+        dps-resourceType="dps:Article"
+        dps-shortAbstract="March 20-24"
+        dps-shortTitle="SUMMIT"
+        dps-title="LAS VEGAS"
+        guidespanel=""
+        pge-type="app-content"
+        photopanel=""
+        rideschedule="/content/dam/mobileapps/shared/multisurvey_131046285058577050.csv"
+        rideseditorbox="\[{&quot;name&quot;:&quot;ITEM01&quot;,&quot;date&quot;:&quot;2016-05-06&quot;,&quot;rideTime&quot;:&quot;8:00am - 9:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM02&quot;,&quot;date&quot;:&quot;2016-05-06&quot;,&quot;rideTime&quot;:&quot;9:00am - 10:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM03&quot;,&quot;date&quot;:&quot;2016-05-07&quot;,&quot;rideTime&quot;:&quot;7:00am - 8:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM04&quot;,&quot;date&quot;:&quot;2016-05-07&quot;,&quot;rideTime&quot;:&quot;8:00am - 9:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM06&quot;,&quot;date&quot;:&quot;2016-05-08&quot;,&quot;rideTime&quot;:&quot;8:00am - 9:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;},{&quot;name&quot;:&quot;ITEM05&quot;,&quot;date&quot;:&quot;2016-05-08&quot;,&quot;rideTime&quot;:&quot;7:00am - 8:00am&quot;,&quot;path&quot;:&quot;%7BpbkHvxlnVFl%7D@wk@G%3FcBTpCxSHHliAmbAm@GzKbQhKtK%60MpWby@xGn%5DfBfCLvFxdAPS%7DjEkC%7DFkDuAs%60@I&quot;}]"
+        slideshowpanel="">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <slideshow
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/slideshow">
+                <slides jcr:primaryType="nt:unstructured">
+                    <_x0031_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/las-vegas-ride/Las_Vegas_AdobeStock_99195792_WM.jpg"/>
+                    <_x0032_
+                        jcr:primaryType="nt:unstructured"
+                        fileReference="/content/dam/mobileapps/larue/las-vegas-ride/Las_Vegas_AdobeStock_99195792_WM.jpg"/>
+                </slides>
+            </slideshow>
+            <text1
+                jcr:lastModified="{Date}2016-05-06T16:40:04.098-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>&lt;b>WELCOME TO THE NEW CORPORATE MEETING-MIXING PASSION, BUSINESS AND COMMUNITY.&lt;/b>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text3
+                jcr:lastModified="{Date}2016-05-06T16:43:41.334-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/text"
+                text="&lt;p>Join us for a ride west of downtown in the stunning Red Rock National Park, or on one of our early morning coffee rides. All skill levels are welcome as these are not races, but rather run rides for everyone to enjoy the passion of riding a bike while building relationships and talking some busines.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <guides
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/guides"/>
+            <provided
+                jcr:lastModified="{Date}2016-05-07T13:39:04.637-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="larue/components/paragraphs/provided"
+                text="&lt;p>Sports breakfast (morning rides)&lt;br>&#xd;&#xa;Bike&lt;br>&#xd;&#xa;Helmets&lt;br>&#xd;&#xa;Water bottles&lt;br>&#xd;&#xa;Ride nutrition&lt;br>&#xd;&#xa;Guides&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <ridephotos
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/larue/components/paragraphs/ridephotos">
+                <photos jcr:primaryType="nt:unstructured">
+                    <_x0031_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/las-vegas-ride/Las_Vegas_AdobeStock_99195792_WM.jpg"/>
+                    <_x0032_
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceSuperType="foundation/components/image"
+                        fileReference="/content/dam/mobileapps/larue/las-vegas-ride/Las_Vegas_AdobeStock_99195792_WM.jpg"/>
+                </photos>
+            </ridephotos>
+        </par>
+        <relatedarticle1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <relatedarticle2
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <relatedarticle3
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="larue/components/paragraphs/relatedarticle"/>
+        <question
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="/apps/larue/components/paragraphs/question"/>
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/larue/las-vegas-ride/Las_Vegas_AdobeStock_99195792_WM.jpg"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+        <social-share-image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/mobileapps/larue/las-vegas-ride/Las_Vegas_AdobeStock_99195792_WM.jpg"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <relatedArticles
+            jcr:primaryType="cq:Widget"
+            title="Related Articles"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <enabled
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Enabled"
+                    name="./enabled"
+                    type="checkbox"
+                    xtype="selection"/>
+                <url
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Server URL"
+                    name="./url"
+                    xtype="textfield"/>
+                <collection
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Article Collection"
+                    name="./collection"
+                    xtype="textfield"/>
+                <article
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Article Name"
+                    name="./article"
+                    xtype="textfield"/>
+                <numOfRecords
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Number of articles to retrieve"
+                    name="./numOfRecords"
+                    xtype="numberfield"/>
+                <errorMessage
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Error message"
+                    name="./errorMessage"
+                    xtype="textfield"/>
+            </items>
+        </relatedArticles>
+    </items>
+</jcr:root>

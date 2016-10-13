@@ -1,0 +1,78 @@
+/*
+*  Copyright 2016 Adobe Systems Incorporated. All rights reserved.
+* 
+*  This file is licensed to you under the Apache License, Version 2.0 (the "License"); 
+*  you may not use this file except in compliance with the License. You may obtain a copy
+*  of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software distributed under
+*  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS 
+*  OF ANY KIND, either express or implied. See the License for the specific language
+*  governing permissions and limitations under the License.
+*/
+.larue-article-author {
+    background-color: #202126;
+    padding: 2em;
+    position: relative;
+    .image-container {
+        position: absolute;
+        height: 48px;
+        width: 42px;
+        background-color: rgba(255, 255, 255, 0.5);
+        top: 0;
+        margin: auto;
+        bottom: 0;
+        img.cq-dd-image {
+            position: absolute;
+            max-height: 48px;
+            max-width: 42px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+    }
+    .author-avatar {
+        position: relative;
+        display: inline-block;
+        width: 42px; //104px;
+        height: 48px; //120px;
+        vertical-align: middle;
+        background-size: cover;
+        background-position: center center;
+        #hex1 {
+            width: 0;
+            border-bottom: 12px solid transparent; //30px
+            border-left: 21px solid #202126;
+            border-right: 21px solid #202126;
+        }
+        #hex2 {
+            width: 42px;
+            height: 24px; // 60px
+            background-color: transparent;
+        }
+        #hex3 {
+            width: 0;
+            border-top: 12px solid transparent;
+            border-left: 21px solid #202126; //52px
+            border-right: 21px solid #202126;
+        }
+    }
+    .author-name {
+        color: #797a7d;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 3.8vw;
+        font-family: GothicSTDLight, arial;
+        letter-spacing: 0.0625em;
+        margin-left: 3vw;
+        span {
+            display: inline-block;
+        }
+        p {
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+        }
+    }
+}
